@@ -1,0 +1,50 @@
+#gtl-about {
+    .gtl-aboutus {
+        width: 100%;
+        .gtl-about-image {
+            width: 100%;
+            img {
+                width: auto;
+                max-width: 100%;
+            }
+        }
+        .gtl-about-detail {
+            background-color: $gtl-black;
+            padding: 20px;
+            .gtl-about-title {
+                .gtl-title-shape {
+                    position: relative;
+                    color: $gtl-white;
+                    font-size: 42px;
+                    font-family: "google_sansbold";
+                    text-transform: capitalize;
+                    padding-left: 30px;
+                    align-items: center;
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        left: 0;
+                        width: 8px;
+                        height: 50px;
+                        background-color: $gtl-primary;
+                    }
+                }
+                p {
+                    color: $gtl-white;
+                    font-size: 20px;
+                    font-family: "google_sansregular";
+                    text-overflow: ellipsis;
+                    max-height: 360px;
+                    overflow: hidden;
+                    line-height: 24px;
+                }
+            }
+            .gtl-about-btn {
+                color: $gtl-primary;
+                cursor: pointer;
+                font-size: 16px;
+                text-transform: capitalize;
+            }
+        }
+    }
+}

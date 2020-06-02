@@ -1,0 +1,375 @@
+#gtl-main-header .gtl-header {
+  position: relative;
+  background-color: #000000;
+  width: 100%;
+  height: 100px;
+}
+
+#gtl-main-header .gtl-header .gtl-top-header {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#gtl-main-header .gtl-header .gtl-top-header .gtl-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#gtl-main-header .gtl-header .gtl-top-header .gtl-contact .gtl-email {
+  margin-right: 20px;
+}
+
+#gtl-main-header .gtl-header .gtl-top-header .gtl-contact .gtl-email a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "google_sansregular";
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#gtl-main-header .gtl-header .gtl-top-header .gtl-contact .gtl-email img {
+  width: 50px;
+}
+
+#gtl-main-header .gtl-header .gtl-top-header .gtl-contact .gtl-call a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "google_sansregular";
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#gtl-main-header .gtl-header .gtl-top-header .gtl-contact .gtl-call img {
+  width: 50px;
+}
+
+#gtl-main-header .gtl-header .gtl-top-header .gtl-socialicon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#gtl-main-header .gtl-header .gtl-top-header .gtl-socialicon ul {
+  margin: 0;
+}
+
+#gtl-main-header .gtl-header .gtl-top-header .gtl-socialicon ul li {
+  list-style: none;
+  display: inline;
+}
+
+#gtl-main-header .gtl-header .gtl-top-header .gtl-socialicon ul li a {
+  text-decoration: none;
+}
+
+#gtl-main-header .gtl-header .gtl-top-header .gtl-socialicon ul li a img {
+  width: 50px;
+}
+
+#gtl-main-header .gtl-header .gtl-bottom-header {
+  width: 100%;
+  height: 100px;
+  background-color: #0098ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#gtl-main-header .gtl-header .gtl-bottom-header .gtl-logo {
+  color: #ffffff;
+  font-size: 42px;
+  padding-left: 10px;
+  font-family: "google_sansbold";
+  font-family: "google_sansmedium";
+}
+
+#gtl-main-header .gtl-header .gtl-bottom-header .gtl-menubar ul {
+  margin: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#gtl-main-header .gtl-header .gtl-bottom-header .gtl-menubar ul li {
+  display: inline;
+  list-style: none;
+  padding: 0px 5px;
+}
+
+#gtl-main-header .gtl-header .gtl-bottom-header .gtl-menubar ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-family: "google_sansmedium";
+  font-size: 16px;
+}
+
+#gtl-main-header .gtl-header .gtl-bottom-header .gtl-menubar ul li a:hover {
+  color: #0000ff;
+}
+
+#gtl-main-header .gtl-header .gtl-bottom-header .gtl-menubar ul li a img {
+  width: 35px;
+}
+
+@font-face {
+  font-family: "google_sansbold";
+  src: url("../fonts/googlesans-bold-webfont.woff2") format("woff2"), url("../fonts/googlesans-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "google_sansbold_italic";
+  src: url("../fonts/googlesans-bolditalic-webfont.woff2") format("woff2"), url("../fonts/googlesans-bolditalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "google_sansitalic";
+  src: url("../fonts/googlesans-italic-webfont.woff2") format("woff2"), url("../fonts/googlesans-italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "google_sansmedium";
+  src: url("../fonts/googlesans-medium-webfont.woff2") format("woff2"), url("../fonts/googlesans-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "google_sansmedium_italic";
+  src: url("../fonts/googlesans-mediumitalic-webfont.woff2") format("woff2"), url("../fonts/googlesans-mediumitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "google_sansregular";
+  src: url("../fonts/googlesans-regular-webfont.woff2") format("woff2"), url("../fonts/googlesans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.gtl-main {
+  width: 100%;
+  position: relative;
+}
+
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1570px !important;
+  }
+}
+
+@media (min-width: 1480px) {
+  .container {
+    max-width: 1400px !important;
+  }
+}
+
+@media (min-width: 1366px) {
+  .container {
+    max-width: 1336px !important;
+  }
+}
+
+.gtl-title {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+.gtl-title .gtl-title-shape {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  padding-left: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 36px;
+  font-family: "google_sansbold";
+  text-transform: capitalize;
+}
+
+.gtl-title .gtl-title-shape::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 8px;
+  height: 50px;
+  background-color: #0098ff;
+}
+
+.gtl-title .gtl-section-title a {
+  color: #0098ff;
+  font-size: 18px;
+  font-family: "google_sansregular";
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+#gtl-banner {
+  width: 100%;
+  height: 100vh;
+}
+
+#gtl-banner img {
+  width: 100%;
+  height: 100vh;
+}
+
+#gtl-services .gtl-services-main {
+  width: 100%;
+  padding: 30px 0;
+}
+
+#gtl-services .gtl-services-main .gtl-services-box {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 346px;
+  position: relative;
+}
+
+#gtl-services .gtl-services-main .gtl-services-box.gtl-srvices-img-one {
+  background-image: url(../images/services-one.jpg);
+}
+
+#gtl-services .gtl-services-main .gtl-services-box.gtl-srvices-img-two {
+  background-image: url(../images/services-two.jpg);
+}
+
+#gtl-services .gtl-services-main .gtl-services-box.gtl-srvices-img-three {
+  background-image: url(../images/services-three.jpg);
+}
+
+#gtl-services .gtl-services-main .gtl-services-box .gtl-services-box-title {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(0, 152, 255, 0.9);
+  height: 90px;
+  color: #ffffff;
+  font-family: "google_sansmedium";
+  font-size: 28px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 20px;
+  bottom: 0;
+  position: absolute;
+  text-transform: capitalize;
+}
+
+#gtl-about .gtl-aboutus {
+  width: 100%;
+}
+
+#gtl-about .gtl-aboutus .gtl-about-image {
+  width: 100%;
+}
+
+#gtl-about .gtl-aboutus .gtl-about-image img {
+  width: auto;
+  max-width: 100%;
+}
+
+#gtl-about .gtl-aboutus .gtl-about-detail {
+  background-color: #000000;
+  padding: 20px;
+}
+
+#gtl-about .gtl-aboutus .gtl-about-detail .gtl-about-title .gtl-title-shape {
+  position: relative;
+  color: #ffffff;
+  font-size: 42px;
+  font-family: "google_sansbold";
+  text-transform: capitalize;
+  padding-left: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#gtl-about .gtl-aboutus .gtl-about-detail .gtl-about-title .gtl-title-shape::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 8px;
+  height: 50px;
+  background-color: #0098ff;
+}
+
+#gtl-about .gtl-aboutus .gtl-about-detail .gtl-about-title p {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "google_sansregular";
+  text-overflow: ellipsis;
+  max-height: 360px;
+  overflow: hidden;
+  line-height: 24px;
+}
+
+#gtl-about .gtl-aboutus .gtl-about-detail .gtl-about-btn {
+  color: #0098ff;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+#gtl-testimonials .gtl-ourtestimonials {
+  width: 100%;
+  padding: 30px 0px;
+}
